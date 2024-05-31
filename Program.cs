@@ -17,7 +17,7 @@ namespace DiscordTest
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-            var token = "MTI0NjA3MDE1MDYwNDY1Njc5Mw.GqsFVx.PLRfLzFo0U_ku1nPQRFovySQ8w0MMpPxTdjcjM";
+            var token = "token";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
@@ -52,3 +52,4 @@ namespace DiscordTest
         }
     }
 }
+
